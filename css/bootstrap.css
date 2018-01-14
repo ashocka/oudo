@@ -1207,7 +1207,7 @@ hr {
       border-top: 72px solid #7D8FAB;
     }
 
-    .corner-bl:before {
+    .corner-br:before {
       border-top: 72px solid #F8D108;
     }
 
@@ -1242,11 +1242,7 @@ hr {
 .link-list li {
   padding-left: 35px;
 }
-.site-wrapper {
-  background-image: url(../img/bg.png);
-  width: 100%;
-  background-repeat: no-repeat;
-}
+
 [data-control] {
   color: #6AA9E7;
   border: 0;
@@ -6977,6 +6973,30 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
+.fixie {
+  background-color: whitesmoke;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+.fixie a {
+  float: left;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.fixie ul {float: right;}
+.fixie ul li {
+  display: inline;
+  float: right;
+  margin: 0 0 0 15px;
+}
+
+.reverse {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+} 
+
 
 /* labels & icons */
 .navigation {
@@ -7004,6 +7024,15 @@ button.close {
   background-repeat: no-repeat;
 }
 
+footer p {
+  font-size: 12px;
+    line-height: 1.6;
+}
+
+.ft-logo {
+  margin: 10px 0;
+  width: 150px;
+}
 
 .lgbt-cert {
 
